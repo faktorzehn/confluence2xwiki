@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>C2X - Syntax Conversion</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="base.js"></script>
+		<script type="text/javascript" src="page.js"></script>
+		<script type="text/javascript" src="convert.js"></script>
+	</head>
+	
+	<body>
+		<span id="title">Confluence to XWiki</span>&nbsp;&nbsp;&nbsp;<span id="subtitle">Syntax Conversion</span> <a href="/batch.html"><span id="link">Page Transfer</span></a>
+		<hr>
+		<form id="confluence" action="JavaScript:load()">
+			<input type="text" id="url_confluence" placeholder="Confluence URL" autocomplete="off">
+			<input type="submit" id="submit" value="Load">
+		</form>
+		
+		<textarea id="input" class="border" spellcheck="false"></textarea>
+		<button id="convert" onclick="submit()">></button>
+		<textarea id="output" class="border" spellcheck="false"></textarea>
+		
+		<div id="log" class="border">
+		</div>
+	
+	</body>
+	
+</html>

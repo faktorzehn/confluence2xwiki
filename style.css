@@ -1,0 +1,88 @@
+body
+{
+	background-color: #f1f1f1;
+	font-family: Helvetica, Sans-Serif;
+}
+hr
+{
+	width: 98%;
+	border-color: white;
+	margin-top: -1px;
+}
+#title
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 34px;
+	font-weight: bold;
+}
+#subtitle
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: gray;
+}
+#link
+{
+	float: right;
+	font-size: 15px;
+}
+#confluence
+{
+	margin-top: 1.5%;
+	margin-left: 1.5%;
+}
+
+#url_confluence
+{
+	width: 40%;
+	margin-bottom: 0.25%;
+}
+
+#url_xwiki
+{
+	width: 40%;
+	margin-bottom: 0.25%;
+}
+
+textarea {
+	position: relative;
+	vertical-align: middle;
+	resize: none;
+	width: 40%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	height: 50vh;
+}
+#input
+{
+	margin-left: 1.5%;
+}
+#convert
+{
+	vertical-align: middle;
+}
+#log
+{
+	font-family: Arial;
+	
+	position: relative;
+	overflow-y: scroll;
+	margin-left: 1.5%;
+	margin-top: 1.5%;
+	width: 80%;
+	height: 30vh;
+	background-color: white;
+}
+
+.border
+{
+	border-style: solid;
+    border-width: 1px;
+	border-color: gray;
+}
+.block
+{
+	margin-left: 1.5%;
+	margin-top: 1.5%;
+}
